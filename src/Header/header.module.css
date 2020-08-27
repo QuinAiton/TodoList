@@ -1,0 +1,34 @@
+.Header {
+  background-color: #363b46;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: white;
+  max-height: 30vh;
+}
+.HeaderTitle {
+  font-size: 2em;
+}
+
+.Headerlogo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Headerlogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.HeaderLink {
+  font-size: -0.75em;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.HeaderLink:hover {
+  color: skyblue;
+}

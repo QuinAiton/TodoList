@@ -1,0 +1,29 @@
+.Button {
+  background-color: #4cff4c;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.Button:hover {
+  background-color: #363b46;
+  color: #6fbfdf;
+}
+
+.Input {
+  height: 2em;
+  width: 60%;
+  border-radius: 10px;
+  color: #363b46;
+  box-shadow: 1px 1px 1px black;
+}
+
+.Input:focus {
+  border: 5px groove #6fbfdf;
+  outline: none;
+}

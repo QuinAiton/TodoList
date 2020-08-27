@@ -1,0 +1,25 @@
+.Todos {
+  display: inline-block;
+  width: 80%;
+  border: 1px solid #363b46;
+  box-shadow: 1px 1px 1px black;
+  margin: 5px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  background-color: #363b46;
+  color: white;
+}
+
+.Todos:hover {
+  background-color: #4cff4c;
+  font-size: 1.1em;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.TodosCompleted {
+  display: inline-block;
+  width: 80%;
+  text-decoration: line-through;
+  transition-duration: 500ms;
+}

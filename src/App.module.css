@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  background-color: #75cef1;
+}
+
+.App {
+  text-align: center;
+}
+
+.AppBody {
+  display: inline-block;
+  text-align: center;
+  min-width: 100%;
+}
